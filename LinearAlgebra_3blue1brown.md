@@ -1,4 +1,4 @@
-# The Essence of Vector
+# Essense of Linear Algebra 
 
 
 
