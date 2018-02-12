@@ -147,9 +147,79 @@ Applying each basis the second transformation.
 
 ## The determinant
 
+Measure how much are areas(one grid) scaled with a matrix(transformation).
+
+![b](D:\git\LittleSkillNotes\math\e.png)
 
 
 
+from [1,0; 0,1] to this matrix with basis(3,0) and (2,2) the scalar of area is 6, which means that after transformation, the area of a unit grid increasing to 6 times the origin area, which is, the determinant is 6.
+
+The determinant of transformation is 0 if it  squishes all the space to a line and even a point -> **checking the determinant is 0 = checking if the transformation squishes the space into a smaller dimension**
+
+How about negative determinant? flipping the space. the number is still the scalar. Thinking the changing of determinant: i_hat and j_hat becomes closer, the determinant is approaching to 0, then i_hat and j_hat changing position, the determinant become negative.
+
+For 3-D, determinant means the scalar of volumes. So 0 means it be squished to a 0 volume thing, a plane, line and even a point. So we can see that this 3-D matrix is linearly dependent.  For the det(M)<0, if the origin is right-hand-rule, now after transformation, it becomes left-hand-rule.
+
+How to calculate det(M) then?
+
+![b](D:\git\LittleSkillNotes\math\f.png)
+
+![b](D:\git\LittleSkillNotes\math\g.png)
+
+det(M~1~M~2~)=det(M~1~)det(M~2~)?
+
+as LHS can be regarded as the composition of two transformation and then find the final scalar of area. For RHS, it can be regarded as find the scalar of each transformation and then multiply them. So it should be the same.
 
 
+
+## Inverse matrices, column space and null space
+
+Linear system of equations:
+
+for non-appear variables, let the coefficient be 0.
+
+![b](D:\git\LittleSkillNotes\math\h.png)
+
+The geometric meaning is, try to find an vector x that after transformation A, it can become vector v.
+
+
+
+**Inverse matrices**: The inverse transformation. A^-1^ .
+
+A^-1^A = transformation that does nothing = I
+
+
+
+Solution: det(A)=0? IF not equals to 0, simply apply inverse matrix to vector v. IF equals 0(lower dimension), there is no inverse matrix as you can not transform a line to a plane( in this case, you need to transfer each line to a plane, but function can only transform an input to an output). In this case, we need to let the vector v on the line which is the result of decreasing the dimension with the transformation A. In a 3x3 matrix, the space squished as a line is stricter to find a solution than being squished as a plane, even both det(A) = 0. To describe it, use **rank**.
+
+Rank: when the result of transformation is 1-dimensional, call it **rank 1**. When the result of transformation is 2-dimensional, call it **rank 2**. **Rank means the number of dimensions in the output**. For example: for a 3x3 transformation, it can have rank 3, 2 and 1.
+
+Set of all possible outputs A*vector v == column space of A. Help us make sure whether solution exist.
+
+**Column space**: **The span of the columns in the matrix**. tell you where  the basis lands. So, **rank is the number of dimensions in the column space**. Full rank equals to the number of columns. 
+
+Notice: zero vector is always in the column space. Since origin keep the same. For full rank transformation, only zero vector keep the same location before and after transformation. For not full rank, as the dimension is decreased, a bunch of vectors will be squished to zero. This set of vectors that lands on the origin after transformation is call **Null space** or **Kernel**.
+
+
+
+**Null space: the set of vectors that lands on the origin after transformation**. For 3x3, when it squished to a plane, it may be vectors in a line. If the space is squished to a line, then the null space can be a plane.
+
+When A * vector X = vector v, if v is a zero vector, then the null space of the A give all the possible solutions.
+
+
+
+## Nonsquare matrix:
+
+Transformation between different dimensions input and output.
+
+For a 3 x 2 matrix, it is a 2-d plane  slicing through the origin in a 3-d space, span of columns <=> Column space. Two columns means the input space has two basis vectors, three rows means each basis vector described with three coordinates.
+
+A 3x2 matrix can still be full rank if the number of dimensions in its column space is the same as the number of dimensions of the input space(linear independent).
+
+For 1 x 2 matrix, it is taken a 2-d plane and squishing it to an axis.  For example, [1 2] take i_hat to 1, and j_hat to 2.
+
+
+
+## Dot products and duality
 
