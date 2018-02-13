@@ -223,3 +223,49 @@ For 1 x 2 matrix, it is taken a 2-d plane and squishing it to an axis.  For exam
 
 ## Dot products and duality
 
+![b](D:\git\LittleSkillNotes\math\i.png)
+
+dot(v,w) = length of projected w * length of v
+
+if the angle is larger than 90, than it should be negative
+
+perpendicular: dot(v,w) = 0
+
+**Order does not matter**.
+
+Why the multiplying each row and adding them together has relations with projection? --> **Duality**
+
+![b](D:\git\LittleSkillNotes\math\j.png)
+
+We can see that there may be some relation between 1 x 2 transformation and 2-d vector as, in numerical, they look similar.
+
+If we set an axis with basis u_hat in the 2-d space and try to find the transformation matrix from the 2-d space to this axis, we can get this matrix via symmetry  
+
+![b](D:\git\LittleSkillNotes\math\k.png)
+
+![b](D:\git\LittleSkillNotes\math\l.png)
+
+![b](D:\git\LittleSkillNotes\math\m.png)
+
+
+
+So dot with unit vector can be regarded as projected vector to the unit vector and taking the length. For non-unit vector, just equals scaling the projected length. 
+
+To sum, any time you have a 2d to 1d linear transformation like [4 1], applying the transformation is as same as dot product with this vector.
+
+**This is a kind of duality**. Natural but surprising correspondence. Here the dual of a vector is the linear transformation that it encodes. The dual of a linear transformation from space to 1 dimension, is a certain vector in that space.
+
+vector <=> transformation
+
+Vector can be regarded as a physical embodiment of linear transformation as it is much easier to image the transformation of an arrow rather than the transformation of the whole space.
+
+
+
+## Cross product
+
+
+
+
+
+
+
