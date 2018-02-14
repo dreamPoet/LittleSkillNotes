@@ -263,9 +263,65 @@ Vector can be regarded as a physical embodiment of linear transformation as it i
 
 ## Cross product
 
+Standard intro.:
+
+cross(v, w) = area of parallelogram. **Order matters**
+
+To remember order: i_hat x j_hat = +1 where i_hat lands on the x axis.
+
+![b](D:\git\LittleSkillNotes\math\n.png)
 
 
 
+3v x w = 3 (v x w); 
+
+The true CROSS PRODUCT is given two 3-d vectors and output a new 3-d vector. (however,the area of given two vectors will equal to the length of the output vector, and the direction of the output will be perpendicular to the parallelogram, according to the right hand rule: x for the first vector, y for the second vector, z for the output ). 
+
+For numerical calculation:
+
+![b](D:\git\LittleSkillNotes\math\o.png)
+
+
+
+Linear transformations understanding:
+
+![b](D:\git\LittleSkillNotes\math\p.png)
+
+determinant and duality
+
+here: 1. define a 3d to 1d linear transformation; 2. find its dual vector 3. show the dual is v x w.
+
+![b](D:\git\LittleSkillNotes\math\q.png)
+
+![b](D:\git\LittleSkillNotes\math\r.png)
+
+Then turn the 1 x 3 matrix to 3 x 1 according to duality. Then make the dot product to get the result. What we need to do is to find this special vector.
+
+![b](D:\git\LittleSkillNotes\math\s.png)
+
+so the coordinates of p is the coefficients of  x y z.
+
+
+
+
+
+
+
+
+
+## Changes of basis
+
+
+
+
+
+## Eigenvectors and eigenvalues
+
+
+
+
+
+## Abstract vector spaces
 
 
 
