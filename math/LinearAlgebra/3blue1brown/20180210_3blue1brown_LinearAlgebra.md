@@ -87,7 +87,7 @@ in fact it should be regard as combination of two basis which are [a; c] and [b;
 
 when apply this matrix to some vector like [x; y], that is, time x to [a; c] and y to [b; d]
 
-![a](D:\git\LittleSkillNotes\math\a.png)
+![a](3blue1brown_LinearAlgebra_1.png)
 
 
 
@@ -103,17 +103,17 @@ The important idea: **every time when you see a matrix, regard them as a certain
 
 ## Matrix multiplication as composition
 
-![b](D:\git\LittleSkillNotes\math\b.png)
+![b](3blue1brown_LinearAlgebra_2.png)
 
 
 
 So, the multiplication of two matrices can be regarded as applying a series of transformation. 
 
-![b](D:\git\LittleSkillNotes\math\c.png)
+![b](3blue1brown_LinearAlgebra_3.png)
 
 as when applying functions, it is from right to left, so there is the same.
 
-![b](D:\git\LittleSkillNotes\math\d.png)
+![b](3blue1brown_LinearAlgebra_4.png)
 
 So, the really computation is: finding where i_hat lands; then finding where j_hat lands:
 
@@ -149,7 +149,7 @@ Applying each basis the second transformation.
 
 Measure how much are areas(one grid) scaled with a matrix(transformation).
 
-![b](D:\git\LittleSkillNotes\math\e.png)
+![b](3blue1brown_LinearAlgebra_5.png)
 
 
 
@@ -163,9 +163,9 @@ For 3-D, determinant means the scalar of volumes. So 0 means it be squished to a
 
 How to calculate det(M) then?
 
-![b](D:\git\LittleSkillNotes\math\f.png)
+![b](3blue1brown_LinearAlgebra_6.png)
 
-![b](D:\git\LittleSkillNotes\math\g.png)
+![b](3blue1brown_LinearAlgebra_7.png)
 
 det(M~1~M~2~)=det(M~1~)det(M~2~)?
 
@@ -179,7 +179,7 @@ Linear system of equations:
 
 for non-appear variables, let the coefficient be 0.
 
-![b](D:\git\LittleSkillNotes\math\h.png)
+![b](3blue1brown_LinearAlgebra_8.png)
 
 The geometric meaning is, try to find an vector x that after transformation A, it can become vector v.
 
@@ -223,7 +223,7 @@ For 1 x 2 matrix, it is taken a 2-d plane and squishing it to an axis.  For exam
 
 ## Dot products and duality
 
-![b](D:\git\LittleSkillNotes\math\i.png)
+![b](3blue1brown_LinearAlgebra_9.png)
 
 dot(v,w) = length of projected w * length of v
 
@@ -235,17 +235,17 @@ perpendicular: dot(v,w) = 0
 
 Why the multiplying each row and adding them together has relations with projection? --> **Duality**
 
-![b](D:\git\LittleSkillNotes\math\j.png)
+![b](3blue1brown_LinearAlgebra_10.png)
 
 We can see that there may be some relation between 1 x 2 transformation and 2-d vector as, in numerical, they look similar.
 
 If we set an axis with basis u_hat in the 2-d space and try to find the transformation matrix from the 2-d space to this axis, we can get this matrix via symmetry  
 
-![b](D:\git\LittleSkillNotes\math\k.png)
+![b](3blue1brown_LinearAlgebra_11.png)
 
-![b](D:\git\LittleSkillNotes\math\l.png)
+![b](3blue1brown_LinearAlgebra_12.png)
 
-![b](D:\git\LittleSkillNotes\math\m.png)
+![b](3blue1brown_LinearAlgebra_13.png)
 
 
 
@@ -269,7 +269,7 @@ cross(v, w) = area of parallelogram. **Order matters**
 
 To remember order: i_hat x j_hat = +1 where i_hat lands on the x axis.
 
-![b](D:\git\LittleSkillNotes\math\n.png)
+![b](3blue1brown_LinearAlgebra_14.png)
 
 
 
@@ -279,25 +279,25 @@ The true CROSS PRODUCT is given two 3-d vectors and output a new 3-d vector. (ho
 
 For numerical calculation:
 
-![b](D:\git\LittleSkillNotes\math\o.png)
+![b](3blue1brown_LinearAlgebra_15.png)
 
 
 
 Linear transformations understanding:
 
-![b](D:\git\LittleSkillNotes\math\p.png)
+![b](3blue1brown_LinearAlgebra_16.png)
 
 determinant and duality
 
 here: 1. define a 3d to 1d linear transformation; 2. find its dual vector 3. show the dual is v x w.
 
-![b](D:\git\LittleSkillNotes\math\q.png)
+![b](3blue1brown_LinearAlgebra_17.png)
 
-![b](D:\git\LittleSkillNotes\math\r.png)
+![b](3blue1brown_LinearAlgebra_18.png)
 
 Then turn the 1 x 3 matrix to 3 x 1 according to duality. Then make the dot product to get the result. What we need to do is to find this special vector.
 
-![b](D:\git\LittleSkillNotes\math\s.png)
+![b](3blue1brown_LinearAlgebra_19.png)
 
 so the coordinates of p is the coefficients of  x y z.
 
@@ -307,13 +307,13 @@ so the coordinates of p is the coefficients of  x y z.
 
 ## Changes of basis
 
-![b](D:\git\LittleSkillNotes\math\t.png)
+![b](3blue1brown_LinearAlgebra_20.png)
 
 Inverse: back transformation.
 
 AX = Y, X = A^-1^Y.
 
-![b](D:\git\LittleSkillNotes\math\u.png)
+![b](3blue1brown_LinearAlgebra_21.png)
 
 How to get a vector translated 90 in another set of basis?
 
@@ -327,7 +327,7 @@ after linear transformation, some vectors remain in their span, for them the tra
 
 If you can found an eigenvector in 3D space, then in fact that is the axis of the rotation. It is much easier to see the rotation as a rotation round this axis with some angle, rather than a 3x3 matrix.
 
-![b](D:\git\LittleSkillNotes\math\v.png)
+![b](3blue1brown_LinearAlgebra_22.png)
 
 
 
@@ -339,7 +339,46 @@ For a diagonal matrix, each basis is an eigenvector and the number exists is its
 
 A easy way to calculate v^n (applying same transformation n times) is to change it to a coordinate described by its eigenbasis(if it has enough eigenvectors to span the whole space spanned by the v, ex, for 2D v, it need a pair of linearly independent eigenvectors), than calculate n times in eigenbasis, finally transformed it back to the origin coordinates via v^-1^. As in Eigenbasis, the transformation is described as a diagonal matrix which is much easier to calculate.
 
+
+
 ## Abstract vector spaces
 
+Determinant and eigenvectors do not care about the coordinate system
+
+function is similar with vectors, only, there are infinite of coordinate need to be added or scaling. So, there are also, linear transformations, dot product, null space, eigenvectors in function.
+
+Linear transformation = linear operators in function. 
+
+What does it means for linear in function:
+
+![b](3blue1brown_LinearAlgebra_23.png)
+
+Derivative is linear operator:
+
+d(f+g)/dx = df/dx + dg/dx;
+
+d(k*y)/dx = k * (dy/dx);
+
+To regard derivation as linear operator, set basis as infinite set of {1, x, x^2, x^3, x^4,...}
+
+![b](3blue1brown_LinearAlgebra_24.png)
 
 
+
+Corresponding relationship btw concepts in vectors and function
+
+![b](3blue1brown_LinearAlgebra_25.png)
+
+
+
+There are lots of vector-ish things in math. all the things like linear transformations, dot product, null space, eigen-xxx, should be able to apply.
+
+Set of vector-ish things all can be called vector spaces. So, scientists set rules for vectors addition and scaling., axioms (checklist), to define a vector space, which may be used when others want to define a new "strange" vector space <-**abstract**, so you do not need to focus on such as an arrow or lists as vector. "vector" can be anything, pictures, functions etc.
+
+![b](3blue1brown_LinearAlgebra_26.png)
+
+
+
+Finished.
+
+London. <2018/2/19>
