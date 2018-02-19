@@ -323,9 +323,21 @@ A^-1^MA, where rightest A is changing the vector in other basis to our basis, ap
 
 ## Eigenvectors and eigenvalues
 
+after linear transformation, some vectors remain in their span, for them the transformation only applying scalar without any rotation. These vectors are called the eigenvectors. Eigenvalue is how much the corresponding eigenvector compressed or expanded.
+
+If you can found an eigenvector in 3D space, then in fact that is the axis of the rotation. It is much easier to see the rotation as a rotation round this axis with some angle, rather than a 3x3 matrix.
+
+![b](D:\git\LittleSkillNotes\math\v.png)
 
 
 
+scaling by lambda, can be regarded as multiply a diagonal matrix with lambda in each [x,x]. = lambda * Identity matrix with 1.
+
+For a diagonal matrix, each basis is an eigenvector and the number exists is its eigenvalue.
+
+
+
+A easy way to calculate v^n (applying same transformation n times) is to change it to a coordinate described by its eigenbasis(if it has enough eigenvectors to span the whole space spanned by the v, ex, for 2D v, it need a pair of linearly independent eigenvectors), than calculate n times in eigenbasis, finally transformed it back to the origin coordinates via v^-1^. As in Eigenbasis, the transformation is described as a diagonal matrix which is much easier to calculate.
 
 ## Abstract vector spaces
 
