@@ -305,13 +305,19 @@ so the coordinates of p is the coefficients of  x y z.
 
 
 
-
-
-
-
 ## Changes of basis
 
+![b](D:\git\LittleSkillNotes\math\t.png)
 
+Inverse: back transformation.
+
+AX = Y, X = A^-1^Y.
+
+![b](D:\git\LittleSkillNotes\math\u.png)
+
+How to get a vector translated 90 in another set of basis?
+
+A^-1^MA, where rightest A is changing the vector in other basis to our basis, applying M is the rotation, then apply the A^-1^ to transformed back to its basis. (Represent the transformation of views).
 
 
 
