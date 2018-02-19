@@ -16,8 +16,6 @@ When  there are enough files which can be organised as a system, they will be mo
 
 PS
 
-Linear Algebra
-
 Calculus
 
 Music Notation
@@ -28,4 +26,6 @@ Power Jazz
 
 ## Finished: 
 
-Beginning of music theory
+Beginning of music theory/Doyoudo <2018/02/11>  London.
+
+Linear Algebra/3blue1brown <2018/02/19>  London.
