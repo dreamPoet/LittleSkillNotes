@@ -1,4 +1,4 @@
-# Little Skill Notes
+# Notes
 
 
 
@@ -23,6 +23,8 @@ Music Notation
 Sketch
 
 Power Jazz
+
+Curvature
 
 ## Finished: 
 
