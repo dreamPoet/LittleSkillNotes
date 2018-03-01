@@ -56,4 +56,17 @@ as the curvature is ||dT/dS|| = ||dT/dt|| / ||dS/dt||, and ||dS/dt|| = ||S'||, w
 
 (To conclude, use area(cross product) as we only need the perpendicular part in the second derivate of S, which is the real changing rate(tangent vector) of the tangent vector of the original curve. The scale of it measures how big the rate is, so no need to normalize it)
 
-## 3D curvature
+
+
+## 3D curvature of a helix
+
+The same idea. Find T(t) = S'(t) / || S'(t)||
+
+ || S'(t)|| = sqrt(x^2, y^2, z^2) (for each components when calculating)
+
+Calculate the curvature by ||dT/dS|| = || dT/dt  /  dS/dt ||
+
+## 2D curvature of a cycloid
+
+use formula directly.
+
