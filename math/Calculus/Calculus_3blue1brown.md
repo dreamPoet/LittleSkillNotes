@@ -82,7 +82,27 @@ $d(g(h(x))/dx = d(g(h(x)))/dh * dh(x)/dx = dg/dh * dh/dx = dg/dx$
 
 $e^x$
 
+![](Calculus_3blue1brown_5.png)
 
+So, we can get $2^t * (2^{dt} - 1) / dt$
+For $(2^{dt} - 1) / dt$ which has no relation with time t, it tends to a constant $0.6931472...$
+
+In fact for all $n^t$ we can find a different constant * itself as the derivative
+
+the number $e$ is defined to make $(e^{dt} - 1) / dt$ equal to 1.
+
+so, $\frac{d}{dt}(e^t) = e^t$
+
+For those constant, we use chain rule to related to $e$.
+$2 = e^{ln(2)}$
+
+$2^t =e^{ln(2)t}$
+
+so, the derivative of $2^t = ln(2) * e^{ln(2)t} = ln(2)*2^t$
+
+![](Calculus_3blue1brown_6.png)
+
+In fact there can be many different ways to express, we use $e$ since it is the proportionality constant btw the size of changing variable and the rate of change. 
 
 
 ## Chapter 6 Implicit differentiation
