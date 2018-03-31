@@ -51,12 +51,37 @@ The process of calculate $s(t) = t^3$. When dt is tent to 0, the item contains d
 
 ## Chapter 3 Derivative formulas through geometry.
 
+visualise $x^2$ and $x^3$ as square and cube, see how area or volume changed when add small $dx$
+
+
+The point: most of the complication can be ignored and the bigest one is reserved.
+
+
+
+
 
 ## Chapter 4 Chain rule
 
 
+add:  $d(g(x)+h(x)) / dx = dg/dx + dh/dx$
+
+product:  $d(g(x)*h(x)) / d(x) = g(x)*dh/dx+ h(x)*dg/dx$
+
+![](Calculus_3blue1brown_3.png)
+
+
+***Chain rule** - composition: 
+
+$d(g(h(x))/dx = d(g(h(x)))/dh * dh(x)/dx = dg/dh * dh/dx = dg/dx$
+
+![](Calculus_3blue1brown_4.png)
+
+
 
 ## Chapter 5 Derivatives of exponentials
+
+$e^x$
+
 
 
 
