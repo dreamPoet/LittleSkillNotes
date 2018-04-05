@@ -102,7 +102,33 @@ so, the derivative of $2^t = ln(2) * e^{ln(2)t} = ln(2)*2^t$
 
 ![](Calculus_3blue1brown_6.png)
 
-In fact there can be many different ways to express, we use $e$ since it is the proportionality constant btw the size of changing variable and the rate of change. 
+In fact there can be many different ways to express, we use $e$ since it is the proportionality constant btw **the size of changing variable and the rate of change**. 
 
 
 ## Chapter 6 Implicit differentiation
+
+implicit curve: not simply y = f(x), x and y are correlated via some relashionship. It's just the set of all points(x,y) that satisfy some property written in terms of the two variables x and y.
+
+![](Calculus_3blue1brown_7.png)
+
+but why?
+
+
+
+
+## Chapter 7 Limits
+
+
+## Chapter 8 Integration and the fundamental theorem
+
+
+
+## Chapter 9 What does area have to do with slope?
+
+
+
+## Higher order derivatives
+
+
+
+## Chapter 10 Taylor series
