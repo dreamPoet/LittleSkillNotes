@@ -74,6 +74,9 @@ product:  $d(g(x)*h(x)) / d(x) = g(x)*dh/dx+ h(x)*dg/dx$
 
 $d(g(h(x))/dx = d(g(h(x)))/dh * dh(x)/dx = dg/dh * dh/dx = dg/dx$
 
+$d(g(h(x))/dx = g'(h(x))*h'(x)$
+
+
 ![](Calculus_3blue1brown_4.png)
 
 
@@ -111,12 +114,47 @@ implicit curve: not simply y = f(x), x and y are correlated via some relashionsh
 
 ![](Calculus_3blue1brown_7.png)
 
-but why?
+we just regard them as (x,y), and the changing on these components will cause on changes on the whole pair.
 
+Another example to use this:
+![](Calculus_3blue1brown_8.png)
+
+so, $\frac{dy}{dx}=\frac{1}{e^y}=\frac{1}{x}$
 
 
 
 ## Chapter 7 Limits
+
+![](Calculus_3blue1brown_9.png)
+
+RHS is the formal derivative definition.
+$h = dx$
+
+introduce h because someone think dx means infinite small, while someone think dx is just a value.
+
+To conclude, we are talking about **the size of change approaches to zero** instead of **infinitely small changes**.
+
+
+so, we need  to understand the meaning of **approach**
+
+$(\epsilon,\delta)$
+
+$\epsilon$ for the output distance (when trying to approach the limit), it may cannot be smaller when limit does not exist.
+
+![](Calculus_3blue1brown_10.png)
+
+
+for second case, the $\epsilon$ is too small, no matter how small the $\delta$ is, the output is always bigger.
+![](Calculus_3blue1brown_11.png)
+
+how to comput limit?
+"L' Hopital's rule"
+
+In the case of $\frac{0}{0}$, the limit can be calculated via
+
+![](Calculus_3blue1brown_12.png)
+
+There are other cases for L' Hopital's rule.
 
 
 ## Chapter 8 Integration and the fundamental theorem
