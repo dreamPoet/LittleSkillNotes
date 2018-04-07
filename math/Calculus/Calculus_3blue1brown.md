@@ -159,6 +159,14 @@ There are other cases for L' Hopital's rule.
 
 ## Chapter 8 Integration and the fundamental theorem
 
+Inverse of the derivatives
+
+![](Calculus_3blue1brown_13.png)
+
+
+
+
+
 
 
 ## Chapter 9 What does area have to do with slope?
