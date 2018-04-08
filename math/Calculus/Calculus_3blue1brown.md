@@ -164,9 +164,22 @@ Inverse of the derivatives
 ![](Calculus_3blue1brown_13.png)
 
 
+use lower bound to make sure the correct constant.
+
+To cancel T=0
+
+![](Calculus_3blue1brown_14.png)
 
 
+Calculate area:
+Fundamental theorem of calculus:
 
+![](Calculus_3blue1brown_15.png)
+
+
+Negative area: backwards; will be substracted.
+
+Integral == signed area between the graph and the horizontal axis.
 
 
 ## Chapter 9 What does area have to do with slope?
