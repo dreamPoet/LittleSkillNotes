@@ -234,3 +234,43 @@ take the car as example:
 <br><br>
 
 ## Chapter 10 Taylor series
+
+Polynomial is much easy when computing.
+
+
+![](Calculus_3blue1brown_22.png)
+
+To approximate the curve around zero, we need to satisfy left conditions.
+
+Finally, we can get $cos(x)=1-\frac{1}{2}x$
+
+To be more accurate, we can add more polynomials like $x^3$ meeting third derivatives, etc.
+
+<br>
+
+Some tips:
+
+1. there will be a factorial as chains of derivatives
+2. later terms coeffecients' calculation will not influence previous ones.
+3. one term corresponding to one order of derivative.
+4. to approximate on other point $a$, just use $x-a$ to get a easier computation
+
+![](Calculus_3blue1brown_23.png)
+
+![](Calculus_3blue1brown_24.png)
+
+![](Calculus_3blue1brown_25.png)
+
+![](Calculus_3blue1brown_26.png)
+
+
+What we do is to transform **derivative information at a point** to **output information near that point**
+
+![](Calculus_3blue1brown_27.png)
+
+
+general term:
+
+![](Calculus_3blue1brown_28.png)
+
+![](Calculus_3blue1brown_29.png)
