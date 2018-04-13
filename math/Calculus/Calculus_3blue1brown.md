@@ -163,8 +163,13 @@ Inverse of the derivatives
 
 ![](Calculus_3blue1brown_13.png)
 
+as we can see, the added area $ds = v(t)*dt$
 
-use lower bound to make sure the correct constant.
+so we can get the formula $\frac{ds}{dt} = v(t)$, which means the derivative of the area under the graph equals to the function of this graph. So the area can be calculated via finding the anti-derivative function.
+
+
+
+Then, use lower bound to make sure the correct constant.
 
 To cancel T=0
 
@@ -184,10 +189,48 @@ Integral == signed area between the graph and the horizontal axis.
 
 ## Chapter 9 What does area have to do with slope?
 
+How to find the average of a continous function of a period?
 
+sum of the height / number of points
+
+![](Calculus_3blue1brown_16.png)
+
+when we take points in the gap of dx, we can get numbers of points equals to $\pi/dx$
+
+![](Calculus_3blue1brown_17.png)
+
+![](Calculus_3blue1brown_18.png)
+
+After rearranging, we can get the numerator as the integral.
+
+$average \quad height = \frac{area}{width}$
+
+
+![](Calculus_3blue1brown_19.png)
+
+<br>
+
+Last chapter shows that in one situation we should use integral: **the problem could be approximated by vreaking it up and then adding up a large number of small things**
+
+Through this video, we should have a second sensation about integral: **for limited number of values, we can simplily use addition to get average, for infinite values, we should use integrals, especially in probability.**
+
+![](Calculus_3blue1brown_20.png)
+
+<br><br>
 
 ## Higher order derivatives
 
+notion:
 
+$\frac{d\frac{df}{dx}}{dx} = \frac{d}{dx} * \frac{df}{dx} = \frac{d^2f}{dx^2}$
+
+the derivative of derivative of $f$
+
+take the car as example:
+
+![](Calculus_3blue1brown_21.png)
+
+
+<br><br>
 
 ## Chapter 10 Taylor series
