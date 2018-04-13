@@ -251,9 +251,9 @@ To be more accurate, we can add more polynomials like $x^3$ meeting third deriva
 Some tips:
 
 1. there will be a factorial as chains of derivatives
-2. later terms coeffecients' calculation will not influence previous ones.
+2. later terms coeffecients' calculation will not influence previous ones. As when calculate one item, later higher ordered items with $x$ will be $0$.
 3. one term corresponding to one order of derivative.
-4. to approximate on other point $a$, just use $x-a$ to get a easier computation
+4. to approximate on other point $a$, just use $(x-a)$ to replace $x$ get a easier computation.
 
 ![](Calculus_3blue1brown_23.png)
 
@@ -274,3 +274,33 @@ general term:
 ![](Calculus_3blue1brown_28.png)
 
 ![](Calculus_3blue1brown_29.png)
+
+
+<br>
+
+Geometric view to display second term of Taylor polynomial:
+
+
+![](Calculus_3blue1brown_30.png)
+
+Height is calculated as $slop * (x-a)$ where the slop is the changing(derivative) of the speed($d'(a)$) on point $a$, so finally it equals to $d''(x-a)$.
+
+
+<br>
+In math **Infinite sum** == **series**
+
+So we call these terms **Taylor series** .
+
+**convergence** (equal) to the needed value.
+
+The series of some functions **only converge within a certain range around the input whose derivative information used** 
+
+![](Calculus_3blue1brown_31.png)
+
+
+Most important intuition for Taylor series:
+*What we do is to transform **derivative information at a point** to **output information near that point***
+
+
+<br><br>
+End. 2018/04/13. London.
