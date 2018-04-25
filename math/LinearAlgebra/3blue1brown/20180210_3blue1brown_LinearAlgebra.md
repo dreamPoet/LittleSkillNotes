@@ -117,11 +117,11 @@ as when applying functions, it is from right to left, so there is the same.
 
 So, the really computation is: finding where i_hat lands; then finding where j_hat lands:
 
-For i_hat, the first one is [e; g]; applying M~2~ to [e; g] which meaning finding the transformation with M~2~ of first version basis [e; g]; 
+For i_hat, the first one is [e; g]; applying M<sub>2</sub> to [e; g] which meaning finding the transformation with M<sub>2</sub> of first version basis [e; g]; 
 
 
 
-So, is M~1~M~2~ =M~2~M~1~? **NOT**
+So, is M<sub>1</sub>M<sub>2</sub> =M<sub>2</sub>M<sub>1</sub>? **NOT**
 
 
 
@@ -167,7 +167,7 @@ How to calculate det(M) then?
 
 ![b](3blue1brown_LinearAlgebra_7.png)
 
-det(M~1~M~2~)=det(M~1~)det(M~2~)?
+det(M<sub>1</sub>M<sub>2</sub>)=det(M<sub>1</sub>)det(M<sub>2</sub>)?
 
 as LHS can be regarded as the composition of two transformation and then find the final scalar of area. For RHS, it can be regarded as find the scalar of each transformation and then multiply them. So it should be the same.
 
@@ -185,9 +185,9 @@ The geometric meaning is, try to find an vector x that after transformation A, i
 
 
 
-**Inverse matrices**: The inverse transformation. A^-1^ .
+**Inverse matrices**: The inverse transformation. A<sup>-1</sup> .
 
-A^-1^A = transformation that does nothing = I
+A<sup>-1</sup>A = transformation that does nothing = I
 
 
 
@@ -311,13 +311,13 @@ so the coordinates of p is the coefficients of  x y z.
 
 Inverse: back transformation.
 
-AX = Y, X = A^-1^Y.
+AX = Y, X = A<sup>-1</sup>Y.
 
 ![b](3blue1brown_LinearAlgebra_21.png)
 
 How to get a vector translated 90 in another set of basis?
 
-A^-1^MA, where rightest A is changing the vector in other basis to our basis, applying M is the rotation, then apply the A^-1^ to transformed back to its basis. (Represent the transformation of views).
+A<sup>-1</sup>MA, where rightest A is changing the vector in other basis to our basis, applying M is the rotation, then apply the A<sup>-1</sup> to transformed back to its basis. (Represent the transformation of views).
 
 
 
@@ -337,7 +337,7 @@ For a diagonal matrix, each basis is an eigenvector and the number exists is its
 
 
 
-A easy way to calculate v^n (applying same transformation n times) is to change it to a coordinate described by its eigenbasis(if it has enough eigenvectors to span the whole space spanned by the v, ex, for 2D v, it need a pair of linearly independent eigenvectors), than calculate n times in eigenbasis, finally transformed it back to the origin coordinates via v^-1^. As in Eigenbasis, the transformation is described as a diagonal matrix which is much easier to calculate.
+A easy way to calculate v^n (applying same transformation n times) is to change it to a coordinate described by its eigenbasis(if it has enough eigenvectors to span the whole space spanned by the v, ex, for 2D v, it need a pair of linearly independent eigenvectors), than calculate n times in eigenbasis, finally transformed it back to the origin coordinates via v<sup>-1</sup>. As in Eigenbasis, the transformation is described as a diagonal matrix which is much easier to calculate.
 
 
 
