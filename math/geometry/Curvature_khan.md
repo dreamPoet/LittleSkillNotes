@@ -62,7 +62,7 @@ as the curvature is ||dT/dS|| = ||dT/dt|| / ||dS/dt||, and ||dS/dt|| = ||S'||, w
 
 The same idea. Find T(t) = S'(t) / || S'(t)||
 
- || S'(t)|| = sqrt(x^2, y^2, z^2) (for each components when calculating)
+ || S'(t)|| = $sqrt(x2, y^2, z^2)$ (for each components when calculating)
 
 Calculate the curvature by ||dT/dS|| = || dT/dt  /  dS/dt ||
 
