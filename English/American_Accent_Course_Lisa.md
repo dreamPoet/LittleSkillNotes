@@ -276,3 +276,159 @@ finished p27, consonants
 -------
 
 Rhythm and Intonation.
+
+1. basics of syllable stress
+
+PS： 两个vowels相连会有一个轻微的j音， science ：ai ye
+he is == heyis 因为每个音节要以辅音开头
+
+louder， longer and higher in pitch
+
+
+2. two syllables words: noun-stress first syllable; verb-stress second syllable
+
+3. end with ATE words: verb-like eight /eit/; adj/noun-/It/ /et/ lighter, the most natural one
+
+
+
+4. suffix:
+-ESE: stress suffix: Chinese, Japanese
+-EER: stree suffix: Poineer; engineer
+-IQUE: stress suffix: antique; technique
+-IC:   stress syllable before suffix: realistic;electric; strategic; terrific;
+
+noun->adj, usually stress move to next syllabel
+
+
+
+5. unstressed syllables: 
+
+reduced syllabel vs stress syllabel
+am;em;om;um -> ehm
+lesson -> e
+
+for all unstressed syllables, prounounce the most natural vowel /e/.
+
+reduced syllabel with different spelling will be pronounced as the same.
+
+lesson - lessen;caller-collar;profit-prophet;seller-cellar;
+
+
+6. stressing words in sentences
+
+content words: words carry the meaning of the sentence - nouns;verbs;adv;adj;
+
+function words: words around the content words
+
+
+go higher (jump up stair) in stress words.
+
+two content words, the second get more stress:
+I got(little stress) a JOB.
+
+Add some other words at the end:
+
+I'm so EXCITED about it.
+I coutldn't FIND one for a long TIME.
+(PS: 一个从句看成一部分)
+
+
+On the first DAY, I was really NERVOUS. There was so much to LEARN.
+
+
+7. Focus words and thought groups
+
+divide long sentence into thought groups and decide which word is the most important one in this group-focus word, which is usually in the end.
+
+I will be driving to the MARKET / to buy something to EAT.
+
+where to pause to break up depend on your speed; it can also be I will be DRIVING / to the MARKET.
+
+
+
+8. how to stress adj and nouns
+
+In English, stress nouns more than adj.
+
+You did a good JOB.
+
+if there are 2 adj before nouns: we stress first adj and noun, but noun is most stressed. (stress mean longer higher louder)
+Big black dog. 
+
+
+
+9.  compound nouns:
+
+two nouns, we stress the first word of a compound noun.
+
+CREDIT card;EYElid;FOREhead;EARring;HAIR style;HAIR color;HAIR brush;WASHING machine;
+
+
+
+10. phrasal verbs:
+
+stress the second words
+
+pick UP; break DOWN
+
+there can be a pro. or noun, but still stress the second one - turn it ON;
+
+
+if it equivelant to a noun, stress the first part:
+WORKout;
+
+
+
+11. Names of Places and People
+
+If the place/name is two words, stress the second
+
+United KINDOM; Mexico CITY; Central PARK;
+
+If the name is three words, stress the last one.
+
+
+
+12. abbrv. and num.
+
+stress the last lettter of abbreviation:
+phD, cnN, uclA;asaP;
+
+don't pronounce separately;
+CNN -> see-en-en
+
+
+numbers: stress the last number.
+fifty EIGHT;
+
+
+
+
+13. Stress for special Emphasis
+
+any word can be stressed if you want to emphase it (have reason). Don't do this too much.
+
+
+14. Rising and Falling Intonation = pitch
+
+statement = pitch goes down.
+
+question = yes/no:pitch goes up | WH-:goes down.
+
+
+
+
+
+15. Changing Intonation
+
+- Items in a series: each item should use rising intonation and the last shoud be failing. ( let people know it is not the last item)
+
+- up = not finished speaking; like a comma;
+
+- introductary words = on the other hand; however; In my opinion .
+
+- giving a choice: do you like PORK or beef.
+
+
+
+----
